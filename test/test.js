@@ -67,7 +67,7 @@ describe('regex', function () {
     )
   })
 
-  it('正确的 split 字符串', function () {
+  it.only('正确的 split 字符串', function () {
     const split = require('../lib/split')
 
     assert.deepEqual(
