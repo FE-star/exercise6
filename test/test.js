@@ -23,7 +23,7 @@ describe('regex', function () {
     assert.ok(
       !meta(`...\n`),
       `...\\n`
-    )
+    ) 
   })
 
   it('匹配一张名字为数字的 jpg 图片', function () {
