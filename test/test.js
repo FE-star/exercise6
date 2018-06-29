@@ -91,4 +91,5 @@ describe('regex', function () {
       ['q', 'r', 's']
     )
   })
+
 })
