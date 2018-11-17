@@ -69,7 +69,7 @@ describe('regex', function () {
 
   it('正确的 split 字符串', function () {
     const split = require('../lib/split')
-
+    
     assert.deepEqual(
       split(`1,2,3`),
       ['1', '2', '3']
