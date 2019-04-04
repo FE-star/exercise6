@@ -1,7 +1,7 @@
 const assert = require('assert')
 
 describe('regex', function () {
-  it('匹配末尾是.', function () {
+  it.only('匹配末尾是.', function () {
     const meta = require('../lib/meta')
 
     assert.ok(
@@ -26,7 +26,7 @@ describe('regex', function () {
     )
   })
 
-  it('匹配一张名字为数字的 jpg 图片', function () {
+  it.only('匹配一张名字为数字的 jpg 图片', function () {
     const quantifier = require('../lib/quantifier')
 
     assert.ok(
@@ -67,7 +67,7 @@ describe('regex', function () {
     )
   })
 
-  it('正确的 split 字符串', function () {
+  it.only('正确的 split 字符串', function () {
     const split = require('../lib/split')
 
     assert.deepEqual(
