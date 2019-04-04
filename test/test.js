@@ -62,7 +62,7 @@ describe('regex', function () {
       `.jpeg`
     )
     assert.ok(
-      !quantifier(`111.jpeeg`),
+      !quantifier(`·`),
       `111.jpeeg`
     )
   })
